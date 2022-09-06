@@ -125,5 +125,7 @@ int main(){
     string censor;
     cin >> censor;
     string fileName = "censorMe.txt";
+    cout << "Enter the name of the file you would like to censor: ";
+    cin >> fileName; cout << "\n";
     Censor(fileName, censor);
 }
